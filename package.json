@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
